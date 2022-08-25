@@ -1,7 +1,5 @@
-import {useAppDispatch, useAppSelector} from "../../../../hook/hooks";
+import {useAppSelector} from "../../../../hook/hooks";
 import {CartProductItem} from "./CartProductItem/CartProductItem";
-import {useEffect} from "react";
-import {getCart} from "../../../../redux/cartSlice";
 
 
 export default function CartProduct() {

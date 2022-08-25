@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import {IIdProduct} from "../../../Products/ProductItem/ProductItem";
-import {useAppDispatch, useAppSelector} from "../../../../../hook/hooks";
+import {useAppSelector} from "../../../../../hook/hooks";
 import {CartProductItemDescr} from "./CartProductItemDescr/CartProductItemDescr";
 import {CartProductItemController} from "./CartProductItemController/CartProductItemController";
 
